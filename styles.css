@@ -52,3 +52,40 @@ li {
   background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
   font-size: 100px;
 }
+
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #e42626;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  color: #1d177a;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9495bc;
+}
+
+button:disabled {
+  background-color: #7d7d80;
+  color: rgb(166, 163, 163);
+  cursor: pointer;
+}
